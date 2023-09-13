@@ -1,0 +1,28 @@
+#container {
+  position: relative;
+  width: 1000px;
+  height: 500px;
+  border: 1px solid black;
+  background-image: url("https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFuZHNjYXBlJTIwb3JpZW50YXRpb258ZW58MHx8MHx8fDA%3D&w=1000&q=80");
+  background-repeat: no-repeat;
+}
+#square {
+  position: absolute;
+  rotate: 45deg;
+  left: 15px;
+  top: 15px;  
+  width: 75px;
+  height: 75px;
+  border: 1px solid black;
+  border-radius: 10%;
+  background-color: white;
+}
+
+#buttonContainer {
+  position: absolute;
+  top: 500px;
+}
+
+#button {
+  margin-top: 100px;
+}
